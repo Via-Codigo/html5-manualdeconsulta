@@ -2,47 +2,11 @@
 
 ## Indice
 
-- [Conceptos Básicos](#conceptos-básicos)
-	- [Carpeta](#carpeta)
-	- [Archivo](#archivo)
-	- [Sitio Web](#sitio-web)
-	- [Página Web](#página-web)
-	- [Dominio](#dominio)
-	- [Hosting](#hosting)
+- [Conceptos Básicos](#conceptos-básicos) - [Carpeta](#carpeta) - [Archivo](#archivo) - [Sitio Web](#sitio-web) - [Página Web](#página-web) - [Dominio](#dominio) - [Hosting](#hosting)
 
-- [Hyper Text Markup Language](#hyper-text-markup-language)	
-	- [Estructura básica de todo documento HTML5](#estructura-basica-de-todo-documento-html5)
-	- [Elementos básicos](#elementos-básicos)
-		- [Comentarios](#comentarios)
-		- [Titulares](#titulares-headings)
-		- [Párrafos](#parrafos)
-		- [Enlaces](#enlaces-anchors)
-		- [Imágenes](#imágenes)
-		- [Listas](#listas)
-		- [Tablas](#tablas)
-		- [Otras etiquetas](#otras-etiquetas)
-	- [Agrupadores Semánticos](#agrupadores-semánticos)
-		- [Nav](#nav)
-		- [Header](#header)
-		- [Main](#main)
-		- [Footer](#footer)
-		- [Article](#article)
-		- [Section](#section)
-		- [Figure](#figure)
-	- [El elemento agrupador DIV](#el-elemento-agrupador-div)
-	- [Elementos Multimedia](#elementos-multimedia)
-	- [Elementos de formulario](#elementos-de-formulario)
+- [Hyper Text Markup Language](#hyper-text-markup-language) - [Estructura básica de todo documento HTML5](#estructura-basica-de-todo-documento-html5) - [Elementos básicos](#elementos-básicos) - [Comentarios](#comentarios) - [Titulares](#titulares-headings) - [Párrafos](#parrafos) - [Enlaces](#enlaces-anchors) - [Imágenes](#imágenes) - [Listas](#listas) - [Tablas](#tablas) - [Otras etiquetas](#otras-etiquetas) - [Agrupadores Semánticos](#agrupadores-semánticos) - [Nav](#nav) - [Header](#header) - [Main](#main) - [Footer](#footer) - [Article](#article) - [Section](#section) - [Figure](#figure) - [El elemento agrupador DIV](#el-elemento-agrupador-div) - [Elementos Multimedia](#elementos-multimedia) - [Elementos de formulario](#elementos-de-formulario)
 
-- [Estilos CSS](#estilos-css)
-	- [Vinculando una hoja de estilos](#vinculando-una-hoja-de-estilos)
-	- [Colores](#colores)
-	- [Estilos de Texto](#propiedades_de_texto)
-	- [Estilos de lista](#estilos-de-lista)
-	- [Modelo de Caja](#modelo-de-caja)
-	- [Propiedades Flexbox](#propiedades-flexbox)
-	- [Imágenes de fondo](#imágenes-de-fondo)
-	- [Transiciones](#transiciones)
-	- [Animaciones](#animaciones)
+- [Estilos CSS](#estilos-css) - [Vinculando una hoja de estilos](#vinculando-una-hoja-de-estilos) - [Colores](#colores) - [Estilos de Texto](#propiedades_de_texto) - [Estilos de lista](#estilos-de-lista) - [Modelo de Caja](#modelo-de-caja) - [Propiedades Flexbox](#propiedades-flexbox) - [Imágenes de fondo](#imágenes-de-fondo) - [Transiciones](#transiciones) - [Animaciones](#animaciones)
 
 ## Conceptos Básicos
 
@@ -83,8 +47,8 @@ Antes de iniciar con los elementos básicos del lenguaje hay que aprender a colo
 
 ```html
 <!-- Esto es un comentario -->
-<!-- Esto es otro comentario 
-en dos o 
+<!-- Esto es otro comentario
+en dos o
 más líneas -->
 ```
 
@@ -101,6 +65,7 @@ más líneas -->
 	</body>
 </html>
 ```
+
 ### Elementos básicos
 
 #### Titulares (Headings)
@@ -121,7 +86,7 @@ Cuando necesitamos escribir parrafos el texto lo colocamos dentro de la etiqueta
 ```html
 <p>Todo lo que necesitas para lograr tus objetivos ya está en ti.</p>
 <p>
-No vas a dominar el resto de tu vida en un día. Relájate. 
+No vas a dominar el resto de tu vida en un día. Relájate.
 Domina el día. Entonces sigue haciendo eso todos los días.
 </p>
 ```
@@ -148,13 +113,14 @@ Los enlaces son los que nos van a permitir conectar las páginas de nuestro siti
 <!-- enlace para ir dirigirnos a otro sitio -->
 <a href="http://www.google.com">Ir a Google</a>
 ```
-**TIP:** Si deseas que el destino se abra en otra pestaña del navegador le añades el atributo **_target_** con el valor **__blank_**
+
+**TIP:** Si deseas que el destino se abra en otra pestaña del navegador le añades el atributo **_target_** con el valor **\__blank_**
 
 ```html
 <a href="http://facebook.com" target="_blank">
 	Este enlace abrirá en otra pestaña
 </a>
-``` 
+```
 
 #### Imágenes
 
@@ -188,7 +154,7 @@ En ellas importa el orden de los elementos podrian ser los pasos para realizar u
 	<li>Ingresar a www.migraciones.gob.pe</li>
 	<li>Llenar el formulario </li>
 	<li>Separar una cita.</li>
-	<li>El pasaporte será entregado en las 14 sedes de Migraciones. 
+	<li>El pasaporte será entregado en las 14 sedes de Migraciones.
 		Debe llevar su voucher y DNI, no es necesario una foto.</li>
 </ol>
 ```
@@ -250,7 +216,7 @@ Nos sirve para indicar que un texto o palabra es importante:
 
 ```html
 <p>
-	El personaje de Tony Stark es caracterizado 
+	El personaje de Tony Stark es caracterizado
 	por el actor <strong>Robert Downey Jr.</strong>
 </p>
 ```
@@ -344,7 +310,7 @@ Representa al pie de la página o sección, normalmente van datos de contacto, e
 ```html
 <footer>
 	<p>
-		Copyright 2018 - Diseño y Desarrollo por 
+		Copyright 2018 - Diseño y Desarrollo por
 		<a href="http://www.anthonystudio.com">anthonystudio.com</a>
 	</p>
 </footer>
@@ -392,9 +358,10 @@ Se usa para envolver imágenes, gráficos o fragmentos de código, pueden inclui
 	<figcaption>Afectados por el síndrome Guillaín Barré</figcaption>
 </figure>
 ```
+
 ## El elemento agrupador DIV
 
-Se usa para agrupar otros elementos con fines de adaptar la disposición de estos al diseño de la interfaz, no aporta semántica. Se usa como elemento *comodín*. Por defecto se comporta como un elemento de tipo bloque.
+Se usa para agrupar otros elementos con fines de adaptar la disposición de estos al diseño de la interfaz, no aporta semántica. Se usa como elemento _comodín_. Por defecto se comporta como un elemento de tipo bloque.
 
 ```html
 <article>
@@ -404,7 +371,7 @@ Se usa para agrupar otros elementos con fines de adaptar la disposición de esto
 		Miembros de una iglesia <br>
 		Vamos caminando <br>
 		Al encuentro del señor </p>
-		
+
 		<p>Un largo caminar <br>
 		Por el desierto bajo el sol <br>
 		No podemos avanzar <br>
@@ -423,29 +390,34 @@ Con HTML5 ahora podemos incluir videos y audio.
 ### Video
 
 De esta forma podríamos incluir un video dentro de nuestro sitio web
+
 ```html
 <video src="videos/intro.mp4" controls></video>
 ```
 
-El atributo src es para indicar la ubicación del video mientras el atributo controls permite mostrar los controles de reproducción, otros atributos opcionales son: 
-* poster: muestra una imagen como carátula del video (hay que pasarle una URL)
-* preload: define si el video debe comenzar a cargarse en cuanto carga la página o no 
-* height: altura en pixels del video
-* autoplay: define si el video debe comenzar a verse en cuanto haya cargado
-* muted: define si debe silenciarse el video de forma automática
-* controls: define si los controles de video deben mostrarse o no (pausa, play)
+El atributo src es para indicar la ubicación del video mientras el atributo controls permite mostrar los controles de reproducción, otros atributos opcionales son:
+
+- poster: muestra una imagen como carátula del video (hay que pasarle una URL)
+- preload: define si el video debe comenzar a cargarse en cuanto carga la página o no
+- height: altura en pixels del video
+- autoplay: define si el video debe comenzar a verse en cuanto haya cargado
+- muted: define si debe silenciarse el video de forma automática
+- controls: define si los controles de video deben mostrarse o no (pausa, play)
 
 ### Audio
 
 De esta forma podríamos incluir un audio o sonido dentro de nuestro sitio web
+
 ```html
 <video src="audios/sound.mp4" controls></video>
 ```
+
 El atributo src es para indicar la ubicación del archivo de audio mientras el atributo controls permite mostrar los controles de reproducción, si se desea iniciar automaticamente se le puede añadir el atributo autoplay.
 
 ## Elementos de formulario
 
 ### Form
+
 Este el elemento es el que va envolvera o agrupar todos los campos del formulario, es el formulario en sí.
 
 ```html
@@ -464,18 +436,19 @@ Esta etiqueta siempre acompaña a los campos de entrada así sabemos que dato qu
 <label for="username">Nombre:</label>
 <input type="text" id="username">
 ```
+
 **TIP:** con el atributo **_for_** vinculamos el label a su input correspondiente y usamos el atributo **_id_** del input
- 
+
 ### Input
 
-Son los campos de entrada de datos, existen varios tipos entre ellos tenemos: text, email, radio, checkbox, color, date, etc.  
+Son los campos de entrada de datos, existen varios tipos entre ellos tenemos: text, email, radio, checkbox, color, date, etc.
 
 ```html
 <!-- Este campo es para ingreso de textos cortos de una sola línea -->
 <input type="text">
 <!-- Este campo es para ingreo de correos electrónicos -->
 <input type="email">
-<!-- Este tipo de campo para cuando tenemos varias alternativas 
+<!-- Este tipo de campo para cuando tenemos varias alternativas
 a selecionar pero solo una podemos marcar -->
 <input type="radio">
 <!-- Este tipo de campo para cuando tenemos que marcar una o varias alternativas de un conjunto de opciones -->
@@ -483,12 +456,13 @@ a selecionar pero solo una podemos marcar -->
 <!-- Este tipo de campo para cuando tenemos que ingresar número, algunos navegadores pueden mostrar unas flechas para aumentar o reducir el valor -->
 <input type="number">
 ```
+
 ### Textarea
 
 Este elemento es para cuando requerimos ingresar un texto multilínea podría ser en caso de escribir un comentario o consulta
 
 ```html
-<textarea></textarea>	
+<textarea></textarea>
 ```
 
 ### Select
@@ -502,7 +476,7 @@ Este elemento es para cuando requerimos seleccionar una opción (usando la etiqu
 	<option value="2">Cuzco</option>
 	<option value="3">Lima</option>
 	<option value="4">Trujillo</option>
-</select>	
+</select>
 ```
 
 ### Button
@@ -517,8 +491,7 @@ Este elemento nos va servir básicamente para poder envíar el formulario aunque
 
 ```html
 <input type="email" placeholder="anthony@prodesigner.com" required>
-``` 
-
+```
 
 ## Estilos CSS
 
@@ -534,7 +507,7 @@ Para vincular una hoja de estilos debemos incluir dentro del elemento **head** e
 </head>
 ```
 
-Antes de iniciar con las reglas css  hay que aprender a colocar comentarios dentro de tu hoja de estilos para que te sirvan de recordatorios como notitas donde escribes un texto que te ayude a recordar porqué hiciste algo o para que utilizaste tal propiedad, y además se utilizarán constantemente en los ejemplos. Nunca te olvides de cerrar los comentarios:
+Antes de iniciar con las reglas css hay que aprender a colocar comentarios dentro de tu hoja de estilos para que te sirvan de recordatorios como notitas donde escribes un texto que te ayude a recordar porqué hiciste algo o para que utilizaste tal propiedad, y además se utilizarán constantemente en los ejemplos. Nunca te olvides de cerrar los comentarios:
 
 - Inicio de comentario: `/*`
 - Fin de comentario: `*/`
@@ -550,21 +523,21 @@ en multiples lineas
 
 ### Colores
 
-Para aplicar colores se pueden usar hacer referencia a estos de  diferentes formas, 
-mediante el nombre del color en inglés, por ejemplo para el color negro podemos usar la palabra **black**, 
-para el color rosado, la palabra **pink**, etc. 
-También se puede usar el formato hexadecimal siendo **#ff0000** para el color rojo,  **#000000** para el color negro. 
+Para aplicar colores se pueden usar hacer referencia a estos de diferentes formas,
+mediante el nombre del color en inglés, por ejemplo para el color negro podemos usar la palabra **black**,
+para el color rosado, la palabra **pink**, etc.
+También se puede usar el formato hexadecimal siendo **#ff0000** para el color rojo, **#000000** para el color negro.
 El formato rgba que permite añadir un canal alfa que controla el nivel de transparencia,
- **rgba(0,0,0,0.5)** sería para un color negro semi transparente, a un nivel de transparencia del cincuenta porciento.
+**rgba(0,0,0,0.5)** sería para un color negro semi transparente, a un nivel de transparencia del cincuenta porciento.
 
- ```css
- .title{
-	color: orange; /* aplicamos color naranja al texto */
-	border-bottom: solid 5px #ff9900; /* aplicamos un borde inferior de color naranja */
-	background-color: rgba(0,0,0,0.8); /* aplicamos color negro
+```css
+.title {
+  color: orange; /* aplicamos color naranja al texto */
+  border-bottom: solid 5px #ff9900; /* aplicamos un borde inferior de color naranja */
+  background-color: rgba(0, 0, 0, 0.8); /* aplicamos color negro
 	con ochenta porciento de opacidad al fondo */
 }
- ```
+```
 
 ### Propiedades de texto
 
@@ -572,31 +545,30 @@ Entre las propiedades para dar formato al texto tenemos:
 
 #### Font-size
 
-Esta propiedad sirve para indicar el tamaño que van a tener los textos dentro del documento, 
+Esta propiedad sirve para indicar el tamaño que van a tener los textos dentro del documento,
 pudiendo tener valores absolutos como 16px y relativos como: 1.2em o 120%.
 
 ```css
-.header__title{
+.header__title {
   font-size: 31px;
 }
 
-.footer{
-	font-size: 0.8em; /* equivale a 12.8 pixeles (0.8*16) si el tamaño de letra base es 16 pixeles */
+.footer {
+  font-size: 0.8em; /* equivale a 12.8 pixeles (0.8*16) si el tamaño de letra base es 16 pixeles */
 }
 
-.the_title{
-	font-size: 300%; /* equivale a 48px (16*3) si el tamaño de letra base es de 16px */
+.the_title {
+  font-size: 300%; /* equivale a 48px (16*3) si el tamaño de letra base es de 16px */
 }
-
 ```
 
 #### Text-align
 
-Sirve alinear el contenido en línea de los bloques, pudiendo ser estos textos, __elementos inline__ y __elementos inline-block__, por ejemplo: enlaces, imágenes, etc.
+Sirve alinear el contenido en línea de los bloques, pudiendo ser estos textos, **elementos inline** y **elementos inline-block**, por ejemplo: enlaces, imágenes, etc.
 
 ```css
-.intro{
-	text-align: center; /* otros valores posibles son: left, right, center, justify */
+.intro {
+  text-align: center; /* otros valores posibles son: left, right, center, justify */
 }
 ```
 
@@ -610,14 +582,15 @@ Sirve alinear el contenido en línea de los bloques, pudiendo ser estos textos, 
 Sirve para precisar el alto que van a tener las líneas de texto o el interlineado. Los valores pueden ser absolutos o relativos (se recomiendan relativos).
 
 ```css
-p{
-	line-height: 1.3; /* equivale al 130% de la altura del texto */
+p {
+  line-height: 1.3; /* equivale al 130% de la altura del texto */
 }
 
-h1, h2, h3 {
-	line-height: 120%; /* es el porcentaje de la altura del texto */
+h1,
+h2,
+h3 {
+  line-height: 120%; /* es el porcentaje de la altura del texto */
 }
-
 ```
 
 #### Text-decoration
@@ -625,23 +598,19 @@ h1, h2, h3 {
 Es la propiedad para añadir detalles decorativos al texto.
 
 ```css
-a{
+a {
   text-decoration: none; /* quita subrayado a todos los enlaces de la página, pues estos vienen con un subrayado por defecto */
 }
 
-.post__price{
-  text-decoration:line-through; /* agrega una línea horizontal
+.post__price {
+  text-decoration: line-through; /* agrega una línea horizontal
   a la mitad del texto  a modo de tachado */
 }
 
-.post__category{
+.post__category {
   text-decoration: underline; /* subraya el texto */
 }
 ```
-
-
-
-
 
 ### Estilos de lista
 
@@ -651,35 +620,38 @@ Sirve para comprender las diferentes propiedades que afectan al tamaño y dispos
 
 ![Modelo de caja](/images/boxmodel.gif)
 
-#### Content (contenido): 
+#### Content (contenido):
 
-Contenido de la caja el cual podría tener un texto, una imagen, u otros elementos, 
+Contenido de la caja el cual podría tener un texto, una imagen, u otros elementos,
 se le puede definir anchura con la propiedad **width** y altura con la propiedad **height**.
 
 ```css
-.box{
-	width: 800px; /* ancho de 800 pixeles */
-	/* de preferencia es mejor no aplicar height y dejar que lo que 
+.box {
+  width: 800px; /* ancho de 800 pixeles */
+  /* de preferencia es mejor no aplicar height y dejar que lo que 
 	va dentro le de la altura con su propio volumen */
-	height: 600px; 
+  height: 600px;
 }
 ```
 
 #### Padding (relleno):
 
 Es la distancia del contenido de la caja hacia dentro del contenedor.
+
 ```css
-.box{
-	padding-right: 5px; /* distancia hacia el lado derecho. */
-	padding-left: 5px; /* distancia hacia el lado izquierdo. */
-	padding-top:5px; /* distancia hacia arriba. */
-	padding-botton: 5px; /* distancia hacia abajo. */
+.box {
+  padding-right: 5px; /* distancia hacia el lado derecho. */
+  padding-left: 5px; /* distancia hacia el lado izquierdo. */
+  padding-top: 5px; /* distancia hacia arriba. */
+  padding-botton: 5px; /* distancia hacia abajo. */
 }
 ```
+
 **TIP:** Si deseas ahorrar líneas de código puedes aplicar esto:
+
 ```css
-.box{
-	padding: 5px 10px; /* el primero es para el right y left, el segundo es para el top y bottom */ 
+.box {
+  padding: 5px 10px; /* el primero es para el right y left, el segundo es para el top y bottom */
 }
 ```
 
@@ -688,21 +660,21 @@ Es la distancia del contenido de la caja hacia dentro del contenedor.
 Es la distancia de la caja hacia afuera del contenedor.
 
 ```css
-.box{
-	margin-right: 5px; /* distancia hacia el lado derecho */
-	margin-left: 5px; /* distancia hacia el lado izquierdo */
-	margin-top: 5px; /* distancia hacia arriba */
-	margin-botton: 5px; /* distancia hacia abajo */
+.box {
+  margin-right: 5px; /* distancia hacia el lado derecho */
+  margin-left: 5px; /* distancia hacia el lado izquierdo */
+  margin-top: 5px; /* distancia hacia arriba */
+  margin-bottom: 5px; /* distancia hacia abajo */
 }
 ```
 
 **TIP:** Si deseas centrar una caja horizontalmente puedes usar este pequeño truco.
 
 ```css
-.box{
-	width: 800px; /* aplicarle un ancho, también funciona con max-width */
-	margin-left: auto; /* el valor auto para equilibrar el lado izquierdo */ 
-	margin-right: auto; /* con el lado derecho  */
+.box {
+  width: 800px; /* aplicarle un ancho, también funciona con max-width */
+  margin-left: auto; /* el valor auto para equilibrar el lado izquierdo */
+  margin-right: auto; /* con el lado derecho  */
 }
 ```
 
@@ -711,28 +683,29 @@ Es la distancia de la caja hacia afuera del contenedor.
 Trazo o línea de contorno, podrías usar las propiedades:
 
 ```css
-.box{
-	border-style: solid; /* estilo de linea */
-	border-color: black; /* color de borde */
-	border-width: 10px; /* grosor del trazo */
-	border-radius: 5px; /* radio del borde */
-}
-```
-**TIP:** si deseas ahorrar escritura en el border-style, border-width y border-color puedes usar este __shorthand__ (atajo de escritura)
-
-```css
-.box{
-	border: solid 5px black; /* style width color */
+.box {
+  border-style: solid; /* estilo de linea */
+  border-color: black; /* color de borde */
+  border-width: 10px; /* grosor del trazo */
+  border-radius: 5px; /* radio del borde */
 }
 ```
 
-**TIP:** Si deseas  que el padding y border respeten el tamaño de la caja,
- en otras palabras el tamaño de la caja lo defina el width del content, 
- puedes usar esta propiedad:
+**TIP:** si deseas ahorrar escritura en el border-style, border-width y border-color puedes usar este **shorthand** (atajo de escritura)
 
 ```css
-.box{
-	box-sizing: border-box;
+.box {
+  border: solid 5px black; /* style width color */
+}
+```
+
+**TIP:** Si deseas que el padding y border respeten el tamaño de la caja,
+en otras palabras el tamaño de la caja lo defina el width del content,
+puedes usar esta propiedad:
+
+```css
+.box {
+  box-sizing: border-box;
 }
 ```
 
@@ -740,26 +713,26 @@ Trazo o línea de contorno, podrías usar las propiedades:
 
 #### Display
 
-A esta propiedad le asignamos un valor **flex** o **flex-inline** (es lo menos común) 
-dependiendo de la necesidad en tu diagramación. 
+A esta propiedad le asignamos un valor **flex** o **flex-inline** (es lo menos común)
+dependiendo de la necesidad en tu diagramación.
 Al darle este valor permite disponer de un modo más fácil a todos sus hijos directos.
-Por defecto lo que va pasar es que todos sus hijos se acomoden de forma horizontal 
+Por defecto lo que va pasar es que todos sus hijos se acomoden de forma horizontal
 uno al lado del otro.
 
 ```css
-.menu{
+.menu {
   display: flex;
 }
 ```
 
 #### Justify-content
 
-La propiedad **justify-content** sirve para alinear a los elementos hijos cuando 
-estos no usan todo el espacio disponible en el eje principal 
+La propiedad **justify-content** sirve para alinear a los elementos hijos cuando
+estos no usan todo el espacio disponible en el eje principal
 (por defecto es el horizontal).
 
 ```css
-.menu{
+.menu {
   display: flex;
   justify-content: flex-start; /* otros valores posibles son: flex-end, center,  space-between, space-around, space-evenly */
 }
@@ -774,33 +747,34 @@ estos no usan todo el espacio disponible en el eje principal
 #### Align-items
 
 Esto define el comportamiento predeterminado de cómo se colocan los elementos hijos a lo largo
-del eje transversal en la línea actual (por defecto es el eje vertical). 
+del eje transversal en la línea actual (por defecto es el eje vertical).
 Es como la versión de **justify-content** para el eje transversal (perpendicular al eje principal).
 
 ```css
-div{
+div {
   display: flex;
   align-items: flex-star; /* otros valores posibles son: flex-end, center, baseline, stretch */
 }
 ```
+
 - **flex-start:** Alinea elementos hijos a la parte superior del contenedor padre.
 - **flex-end:** Alinea elementos hijos a la parte inferior del contenedor padre.
 - **center:** Alinea elementos hijos en el centro (verticalmente hablando) del contenedor padre.
 - **baseline:** Muestra elementos hijos en la línea base del contenedor padre.
 - **stretch:** Elementos hijos se estiran para ajustarse al contenedor padre.
 
-
 #### Flex-direction
 
-Esto establece el eje principal, definiendo así la dirección en que se colocan los 
-elementos hijos  en el contenedor padre.
+Esto establece el eje principal, definiendo así la dirección en que se colocan los
+elementos hijos en el contenedor padre.
 
 ```css
-.menu{
+.menu {
   display: flex;
   flex-direction: row; /* otros valores posibles son: row-reverse, column,  column-reverse */
 }
 ```
+
 - **row:** Elementos son colocados en la misma dirección del texto.
 - **row-reverse:** Elementos son colocados en la dirección opuesta al texto.
 - **column:** Elementos se colocan de arriba hacia abajo.
@@ -808,55 +782,56 @@ elementos hijos  en el contenedor padre.
 
 #### Flex-wrap
 
-Por defecto, todos los elementos hijos  intentarán caber en una línea. 
-Puede cambiar eso y permitir que pasen a una segunda fila (si fuera necesario) 
+Por defecto, todos los elementos hijos intentarán caber en una línea.
+Puede cambiar eso y permitir que pasen a una segunda fila (si fuera necesario)
 con esta propiedad.
 
 ```css
-.posts{
+.posts {
   display: flex;
   flex-wrap: nowrap; /* otros valores: wrap, wrap-reverse */
 }
 ```
+
 - **nowrap:** Cada elemento se ajusta en una sola línea.
 - **wrap:** los elementos se envuelven alrededor de líneas adicionales.
 - **wrap-reverse:** Los elementos se envuelven alrededor de líneas adicionales en reversa.
-
 
 ### Imágenes de Fondo
 
 #### Background-image
 
-Sirve para establecer la imagen de fondo de un elemento. 
+Sirve para establecer la imagen de fondo de un elemento.
 La imagen se muestra en la zona que ocupan el contenido y el relleno del elemento,
 justo hasta su borde.
 
-Para indicar la imagen que se muestra como fondo de un elemento, se utiliza una URL. 
+Para indicar la imagen que se muestra como fondo de un elemento, se utiliza una URL.
 
 ```css
-body{
+body {
   background-image: url("../images/fondo.jpg");
 }
 ```
 
 #### Background-size
 
-Esta propiedad se utiliza para determinar el tamaño de la imagen de fondo, 
+Esta propiedad se utiliza para determinar el tamaño de la imagen de fondo,
 estableciendo ancho y alto de la misma.
 
 ```css
-body{
+body {
   background-image: url("../images/fondo.jpg");
-  Background-size: 300px 200px; /* otros valores: 50% 50%, cover */
+  background-size: 300px 200px; /* otros valores: 50% 50%, cover */
 }
 ```
-**TIP:** si se le asigna el valor **cover** la imagen cubrirá todo el area disponible, 
+
+**TIP:** si se le asigna el valor **cover** la imagen cubrirá todo el area disponible,
 muy util para cuando queremos que se adapte a diferentest tamaños de pantalla o dispositivo.
 
 #### Background-attachment
 
-Esta propiedad sirve para controlar si la imagen de fondo se mueve o permanece fija cuando se 
-hace scroll en la ventana del navegador. 
+Esta propiedad sirve para controlar si la imagen de fondo se mueve o permanece fija cuando se
+hace scroll en la ventana del navegador.
 
 - **Scroll:** Es el valor base y consiste en que la imagen de fondo se mueve con el elemento.
 
@@ -871,13 +846,14 @@ body {
 
 #### Background-repeat
 
-Esta propiedad sirve para controlar el tipo de repetición de las imágenes de fondo, 
-si se repite o no y las direcciones en las que se repite. Se pueden usar solo uno de 
+Esta propiedad sirve para controlar el tipo de repetición de las imágenes de fondo,
+si se repite o no y las direcciones en las que se repite. Se pueden usar solo uno de
 los siguientes valores permitidos a la vez: repeat, repeat-x, repeat-y ó no-repeat.
 
-Por defecto, si la imagen de fondo que se establece con la propiedad background-image es 
-más pequeña que el sitio disponible, el navegador repite la imagen en todas 
+Por defecto, si la imagen de fondo que se establece con la propiedad background-image es
+más pequeña que el sitio disponible, el navegador repite la imagen en todas
 las direcciones hasta cubrir completamente la superficie del elemento.
+
 ```css
 body {
   background-image: url("../images/patron.jpg");
@@ -885,9 +861,9 @@ body {
 }
 ```
 
-
-Los valores repeat-x y repeat-y permiten repetir la imagen de fondo sólo en una 
+Los valores repeat-x y repeat-y permiten repetir la imagen de fondo sólo en una
 dirección (horizontal o vertical).
+
 ```css
 body {
   background-image: url("../images/patron.jpg");
@@ -900,30 +876,32 @@ body {
 Esta propiedad se utiliza para controlar la posición de las imágenes de fondo.
 
 ```css
-body{
-	background-image: url("../images/flower.png");
-	background-repeat: no-repeat;
-	background-position: 10px 30px;
+body {
+  background-image: url("../images/flower.png");
+  background-repeat: no-repeat;
+  background-position: 10px 30px;
 }
 ```
-La explicación de los valores permitidos para esta propiedad es compleja debido a su gran flexibilidad. 
+
+La explicación de los valores permitidos para esta propiedad es compleja debido a su gran flexibilidad.
 Son dos valores separados por un espacio.
 
-- En el primer valor se puede escribrir: un porcentaje,  medida exacta en pixeles, left, center ó right.
+- En el primer valor se puede escribrir: un porcentaje, medida exacta en pixeles, left, center ó right.
 - En el segundo valor se puede escribir: un porcentaje, medida exacta en pixeles, top, center ó bottom.
 - Si se utilizan porcentajes, hace referencia a la anchura del propio elemento.
 
 También podrías aplicar:
+
 - En el primer valor: left, center ó right.
 - En el segundo valor: top, center ó bottom.
 
 Entonces si deseamos una imagen alineada en la parte derecha inferior sería:
 
 ```css
-.header{
-	background-image: url("../images/petunia.png");
-	background-repeat: no-repeat;
-	background-position: right bottom;
+.header {
+  background-image: url("../images/petunia.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
 }
 ```
 
@@ -934,28 +912,28 @@ Para añadir transiciones se usan las siguientes propiedades:
 - **Transition-property:** Esta propiedad sirve para indicar el nombre de la propiedad que se desea transicionar.
 - **Transition-duration:** Esta propiedad sirve para indicar el tiempo que se quiere que dure la transición.
 - **Transition-delay:** Esta propiedad sirve para indicar una latencia o retardo para que inicie la transición.
-- **Transition-timing-function:** Esta propiedad sirve para indicar si se desea aceleración o un 
-movimiento linear (sin aceleración).
+- **Transition-timing-function:** Esta propiedad sirve para indicar si se desea aceleración o un
+  movimiento linear (sin aceleración).
 
 ```css
-.btn{
-	background-color: red;
-	color: white;		
-	transition-property: background-color;
-	transition-duration: 200ms;
-	transition-delay: 50ms;
-	transition-timing-function: linear;	
+.btn {
+  background-color: red;
+  color: white;
+  transition-property: background-color;
+  transition-duration: 200ms;
+  transition-delay: 50ms;
+  transition-timing-function: linear;
 }
 
 /* básicamente las transiciones para poder ver el cambio de propiedad con 
 transicion se tiene que usar en la pseudoclase hover */
 
-.btn:hover{
-	background-color: black;
+.btn:hover {
+  background-color: black;
 }
 ```
 
-**TIP:** Las propiedades __transicionables__ son aquellas que tienen valores númericos, por ejemplo: margin, padding, background-color, color, width, height, transform, etc.
+**TIP:** Las propiedades **transicionables** son aquellas que tienen valores númericos, por ejemplo: margin, padding, background-color, color, width, height, transform, etc.
 
 ### Animaciones
 
@@ -963,30 +941,22 @@ Las animaciones requieren el uso de la regla **keyframes** a la cual se le asign
 
 ```css
 /* se crea la regla keyframes */
-@keyframes rotacion{
-	0%{
-		transform: rotate(0deg);
-	}
-	100%{
-		transform: rotate(360deg);
-	}
+@keyframes rotacion {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 /* se asigna la regla al elemento que se desea animar */
 
-.wheel{
-	animation-name: rotacion; /* nombre de la regla keyframes */
-	animation-duration: 300ms; /* tiempo que va durar la animación */
-	animation-iteration-count: infinite; /* las veces que se va repetir
+.wheel {
+  animation-name: rotacion; /* nombre de la regla keyframes */
+  animation-duration: 300ms; /* tiempo que va durar la animación */
+  animation-iteration-count: infinite; /* las veces que se va repetir
 	 la animación podría ser una vez, dos, tres o de forma infinita */
-	animation-timing-function: linear; /* para un movimiento con
+  animation-timing-function: linear; /* para un movimiento con
 	velocidad constante o linear */
 }
-
 ```
-
-
-
-
-
-
-
